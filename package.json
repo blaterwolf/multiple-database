@@ -1,0 +1,29 @@
+{
+    "name": "multiple-database",
+    "version": "1.0.0",
+    "description": "NodeJS API Scenario where you have Multiple Databases",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "node-fetch": "^3.3.0",
+        "pg": "^8.10.0",
+        "postgres": "^3.3.4",
+        "sequelize": "^6.29.1",
+        "sequelize-cli": "^6.6.0",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    }
+}

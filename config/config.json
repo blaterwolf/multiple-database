@@ -1,0 +1,32 @@
+{
+    "development": {
+        "database1": {
+            "username": "postgres",
+            "password": "admin",
+            "database": "database1",
+            "host": "127.0.0.1",
+            "port": 5432,
+            "dialect": "postgres",
+            "dialectOptions": {
+                "ssl": false,
+                "useUTC": false
+            },
+            "logging": false,
+            "timezone": "+08:00"
+        },
+        "database2": {
+            "username": "postgres",
+            "password": "admin",
+            "database": "database2",
+            "host": "127.0.0.1",
+            "port": 5432,
+            "dialect": "postgres",
+            "dialectOptions": {
+                "ssl": false,
+                "useUTC": false
+            },
+            "logging": false,
+            "timezone": "+08:00"
+        }
+    }
+}
